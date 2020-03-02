@@ -6,11 +6,11 @@ pachet7 = ["Reţele Petri şi aplicaţii", "Smart Card-uri şi Aplicaţii", "Top
 
 
 def alegere_optional_din_pachet(pachet):
-    intrare_user = None;
+    intrare_user = None
     for i, j in enumerate(pachet):
         print(i, j)
     while intrare_user not in range(len(pachet)):
-        print("introduceti: ", end="")
+        print("Introduceti: ", end="")
         for elem in range(len(pachet) - 1):
             print(str(elem) + " ", end="")
         print("sau " + str(len(pachet)-1))
@@ -22,17 +22,17 @@ def alegere_optional_din_pachet(pachet):
 
 
 def alegere_optional():
-    opt1 = None;
-    opt2 = None;
-    opt3 = None;
+    opt1 = None
+    opt2 = None
+    opt3 = None
 
-    print("Alegeti o optiune din pachetul5: ")
+    print("Alegeti o optiune din pachetul 5: ")
     opt1 = pachet5[alegere_optional_din_pachet(pachet5)]
 
-    print("Alegeti o optiune din pachetul6: ")
+    print("Alegeti o optiune din pachetul 6: ")
     opt2 = pachet6[alegere_optional_din_pachet(pachet6)]
 
-    print("Alegeti o optiune din pachetul7: ")
+    print("Alegeti o optiune din pachetul 7: ")
     opt3 = pachet7[alegere_optional_din_pachet(pachet7)]
 
     print("Cursurile dumneavoastra sunt:")
