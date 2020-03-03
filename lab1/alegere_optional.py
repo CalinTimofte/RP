@@ -7,7 +7,7 @@ pachet7 = ["Reţele Petri şi aplicaţii", "Smart Card-uri şi Aplicaţii", "Top
 raspunsuri_pachet6 = [0, 0, 0, 0]
 raspunsuri_pachet7 = [0, 0, 0]
 
-intrebari_pachet_6 = ["Esti o persoana care are un interest pentru psihologie?",
+intrebari_pachet_6 = ["Esti o persoana care are un interes pentru psihologie?",
                       "Iti plac aplicatiile WEB?",
                       "Te-a interesat Inteligenta Artificiala?",
                       "Iti place sa urmaresti trendurile si vrei sa stii ce se ascunde in spatele retelelor media?"]
