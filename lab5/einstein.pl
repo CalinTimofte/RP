@@ -1,3 +1,5 @@
+% Platica Alexandu-Gabriel, Timofte Calin
+
 exists(A, houselist(A, _, _, _, _)).
 exists(A, houselist(_, A, _, _, _)).
 exists(A, houselist(_, _, A, _, _)).
@@ -21,7 +23,7 @@ nextTo(A, B, houselist(_, A, B, _, _)).
 nextTo(A, B, houselist(_, _, A, B, _)).
 nextTo(A, B, houselist(_, _, _, A, B)).
 
-puzzle(Houses) :-
+riddle(Houses) :-
   exists(house(red, brit, _, _, _), Houses),
   exists(house(_, swede, _, _, dogs), Houses),
   exists(house(_, dane, tea, _, _), Houses),
@@ -40,7 +42,7 @@ puzzle(Houses) :-
   exists(house(_, _, _, _, fish), Houses).
 
 solution(Animal) :-
-  puzzle(Houses),
+  riddle(Houses),
   rightOf(house(_,_,_,_,Animal),house(red,_,_,_,_), Houses).
 
 
